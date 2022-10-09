@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+header {
+    height:  712px;
+    background-image: url(https://media-cdn-v2.laodong.vn/storage/newsportal/2022/2/16/1014938/Ariana-Grande-Grammy.jpg?w=800&h=496&crop=auto&scale=both);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.nav {
+    height: 48px ;
+    width: 100%;
+    position: fixed;
+    font-size: large;
+}
+.item li{
+    display: inline-block;
+    padding: 0px 4px;
+}
+.item{
+    position: relative;
+    font-size: large;
+    color: black;
+}
+.item .nav-link{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0px 20px;
+}
+.item a {
+     text-decoration: none;
+     color:black;
+     padding: 0px 12px;
+}
+.item li :hover {
+    background-color: gray;
+    color: aliceblue;
+}
+.name{ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+
+}
+.intro{
+text-align: center;
+    font-size: large;
+}
+
+.about {
+width: 100%;
+position: relative;
+padding: 8px;
+}
+.ariana{
+    position: absolute;
+    top :50%;
+    left: 50%;
+}
+.about .title{
+font-size: xx-large;
+font-weight: bold;
+text-align: center;
+
+}
+
+.about .biography{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5em;
+}
+
+.about .img{
+    max-width: 30%;
+}
+
+.about .content{
+    max-width: 45%;
+}
+
+@media only screen and (max-width: 1269px) {
+    .about .content{
+        max-width: 100%;
+    }
+}
+
+.album{
+    padding:  1em;
+}
+.album .a-name{
+    font-size: xx-large;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+.album .music{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px 20px;
+}
+.album .disk{
+    padding: 0px 16px;
+}
+.contact{
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+.music .disk{
+    position: relative;
+}
+
+.music .disk svg:nth-child(2){
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 50%;
+    left: 50%;
+    display: none;
+}
+.music .disk:hover {
+    opacity: 0.6;
+}
+.music .disk:hover svg:nth-child(2){
+    display: inline-block;
+    opacity: 1;
+    z-index: 2;
+}
+input {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+  border-radius: 4px;
+}
+input[type=submit]{
+    width: 10%;
+}
+.contact .title{
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+}
+.footer{
+    background-color: gray;
+    height: 64px;
+    width: 100%;
+    text-align: center;
+    font-size: large;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
